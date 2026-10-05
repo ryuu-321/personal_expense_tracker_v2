@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "KACHINGG",
+    "slug": "kacingg",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.jpg",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.jpg",
+        "backgroundColor": "#158063"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/icon.jpg",
+          "backgroundColor": "#158063",
+          "imageWidth": 200
+        }
+      ]
+    ]
+  }
+}
